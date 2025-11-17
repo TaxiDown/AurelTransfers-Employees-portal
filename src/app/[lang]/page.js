@@ -18,10 +18,10 @@ export default async function Home() {
       <div className='mt-20 flex flex-col'>
         <div className=" md:mr-25 md:ml-20 flex flex-col md:flex-row items-center md:justify-between md:gap-20 mb-2">
           <XmlFileUploadDialog />
-          <Link href={"/pickup"} className='flex items-center gap-2 text-orange-500 font-medium text-lg hover:text-orange-700'>
+          {/*<Link href={"/pickup"} className='flex items-center gap-2 text-orange-500 font-medium text-lg hover:text-orange-700'>
           <CirclePlus size={17} strokeWidth={2.5}/>
           {dict("create")}
-          </Link>
+          </Link>*/}
         </div>
         <BookingsTable role={role}/>
       </div>
